@@ -1,0 +1,43 @@
+{
+  "question": [
+    "Q1. Questão01?",
+    "Q2. Questão02?",
+    "Q3. Questão03?",
+    "Q4. Questão04?"
+  ],
+  "answer": [
+    1,
+    2,
+    3,
+    2
+  ],
+  "options": [
+
+    ["opção01",
+      "opção02",
+      "opção03",
+      "opção04"
+    ],
+    ["HomemAranha",
+      "caderno",
+      "lapis",
+      "dinheiro"
+    ],
+    ["apito",
+      "trem",
+      "cola",
+      "coqueiro"
+    ],
+    ["hospital",
+      "farmacia",
+      "posto",
+      "banheiro"
+    ]
+  ],
+  "imagens": [
+    "imagens/drum.png",
+    "imagens/apito.png",
+    "assets/imagens/piano.png",
+    "assets/imagens/trem.png"
+  ]
+}
