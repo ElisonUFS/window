@@ -1,43 +1,90 @@
-{
-  "question": [
-    "Q1. Questão01?",
-    "Q2. Questão02?",
-    "Q3. Questão03?",
-    "Q4. Questão04?"
-  ],
-  "answer": [
-    1,
-    2,
-    3,
-    2
-  ],
-  "options": [
-
-    ["opção01",
-      "opção02",
-      "opção03",
-      "opção04"
-    ],
-    ["HomemAranha",
-      "caderno",
-      "lapis",
-      "dinheiro"
-    ],
-    ["apito",
-      "trem",
-      "cola",
-      "coqueiro"
-    ],
-    ["hospital",
-      "farmacia",
-      "posto",
-      "banheiro"
+[
+  {
+    "title": "Q1. Questão01?",
+    "answer": 1,
+    "options": [
+      {
+        "title": "opção1",
+        "img": "imagens/drum.png"
+      },
+      {
+        "title": "opção2",
+        "img": "imagens/apito.png"
+      },
+      {
+        "title": "opção3",
+        "img": "imagens/piano.png"
+      },
+      {
+        "title": "opção4",
+        "img": "imagens/trem.png"
+      }
     ]
-  ],
-  "imagens": [
-    "imagens/drum.png",
-    "imagens/apito.png",
-    "assets/imagens/piano.png",
-    "assets/imagens/trem.png"
-  ]
-}
+  },
+  {
+    "title": "Q2. Questão02?",
+    "answer": 2,
+    "options": [
+      {
+        "title": "HomemAranha",
+        "img": "imagens/drum.png"
+      },
+      {
+        "title": "caderno",
+        "img": "imagens/apito.png"
+      },
+      {
+        "title": "lapis",
+        "img": "imagens/piano.png"
+      },
+      {
+        "title": "dinheiro",
+        "img": "imagens/trem.png"
+      }
+    ]
+  },
+  {
+    "title": "Q3. Questão03?",
+    "answer": 3,
+    "options": [
+      {
+        "title": "apito",
+        "img": "imagens/drum.png"
+      },
+      {
+        "title": "trem",
+        "img": "imagens/apito.png"
+      },
+      {
+        "title": "cola",
+        "img": "imagens/piano.png"
+      },
+      {
+        "title": "coqueiro",
+        "img": "imagens/trem.png"
+      }
+    ]
+  },
+  {
+    "title": "Q4. Questão04?",
+    "answer": 2,
+    "options": [
+      {
+        "title": "hospital",
+        "img": "imagens/drum.png"
+      },
+      {
+        "title": "farmacia",
+        "img": "imagens/apito.png"
+      },
+      {
+        "title": "posto",
+        "img": "imagens/piano.png"
+      },
+      {
+        "title": "banheiro",
+        "img": "imagens/trem.png"
+      }
+    ]
+  }
+]
