@@ -2,6 +2,7 @@
   {
     "title": "Q1. Questão01?",
     "answer": 1,
+    "sound": "sons/apito.wav",
     "options": [
       {
         "title": "opção1",
@@ -24,6 +25,7 @@
   {
     "title": "Q2. Questão02?",
     "answer": 2,
+    "sound": "sons/piano.wav",
     "options": [
       {
         "title": "HomemAranha",
@@ -46,6 +48,7 @@
   {
     "title": "Q3. Questão03?",
     "answer": 3,
+    "sound": "sons/trem.wav",
     "options": [
       {
         "title": "apito",
@@ -68,6 +71,7 @@
   {
     "title": "Q4. Questão04?",
     "answer": 2,
+    "sound": "sons/drum.wav",
     "options": [
       {
         "title": "hospital",
