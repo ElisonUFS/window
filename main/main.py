@@ -3,6 +3,7 @@ from tkinter import *
 from tkinter import messagebox as mb
 from PIL import ImageTk, Image
 
+import winsound
 import json
 
 #classe que define os componentes da GUI
@@ -144,11 +145,13 @@ class Quiz(Frame):
 		current_question = self.questions[self.q_no]
 
 		title = current_question["title"]
+		som = current_question["sound"]
 		# propriedades das questoes
 		q_no = Label(gui, text=title, width=60,
 			font=( 'ariel' ,16, 'bold' ), anchor= 'w')
 		q_no.place(x=70, y=100)
 		self.rd_buttons = self.radio_buttons(current_question["options"])
+		winsound.PlaySound(som, winsound.SND_FILENAME)
 
 
 	# mostrar o titulo
